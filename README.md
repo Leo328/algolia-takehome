@@ -7,11 +7,13 @@ This repository contains:
 
 ## Project structure
 
+```bash
 .
 ├── upload_script.py
 ├── requirements.txt
 ├── data.json
 └── search_ui/
+```
 
 
 ## Prerequisites
