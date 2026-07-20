@@ -48,7 +48,7 @@
           // TEXT SEARCH
           // Searches the index while the user types.
           // Searchable attributes, typo tolerance, ranking, and searchable attributes are configured
-          // in the Algolia index (https://dashboard.algolia.com/apps/HRWDO0NBSX/explorer/configuration/products/searchable-attributes);
+          // in the Algolia index (https://dashboard.algolia.com/apps/{ALGOLIA_APP_ID}/explorer/configuration/products/searchable-attributes);
           // placeholder and search-as-you-type behavior are
           // configured on this widget.
           // Docs: https://www.algolia.com/doc/api-reference/widgets/search-box/js
