@@ -16,8 +16,8 @@
     toggleRefinement
   } from "instantsearch.js/es/widgets";
 
-  const ALGOLIA_APP_ID = "";
-  const ALGOLIA_SEARCH_API_KEY = "";
+  const ALGOLIA_APP_ID = "HRWDO0NBSX";
+  const ALGOLIA_SEARCH_API_KEY = "2b06469b82c1b065c74b53f27cad6d9a";
   const ALGOLIA_INDEX_NAME = "products";
 
   let searchBoxContainer;
@@ -174,6 +174,16 @@
           // hitsPerPage is configured using the configure widget above.
           // Docs: https://www.algolia.com/doc/api-reference/widgets/hits/js
         container: hitsContainer,
+
+        transformItems(items) {
+          // For debugging, you can view Object IDs returned from search in browser console
+          console.log(
+            "Returned objectIDs:",
+            items.map((item) => item.objectID)
+          );
+
+          return items;
+        },
         templates: {
           item(hit, { html, components }) {
             let startsWithBrandName = false
