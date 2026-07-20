@@ -16,8 +16,8 @@
     toggleRefinement
   } from "instantsearch.js/es/widgets";
 
-  const ALGOLIA_APP_ID = "HRWDO0NBSX";
-  const ALGOLIA_SEARCH_API_KEY = "2b06469b82c1b065c74b53f27cad6d9a";
+  const ALGOLIA_APP_ID = "";
+  const ALGOLIA_SEARCH_API_KEY = "";
   const ALGOLIA_INDEX_NAME = "products";
 
   let searchBoxContainer;
